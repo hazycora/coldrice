@@ -145,15 +145,47 @@ a:visited {
   margin-bottom: 4px;
 }
 
-.streamContainer {
-  display: block;
-  width: 100%;
-}
-
-.streamContainer .heading {
+.heading {
   font-size: 30px;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+#boxContainer {
+  display: block;
+  border-radius: 7px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+#boxContainer #top {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+#boxContainer #bottom {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.box {
+  display: block;
+  background-color: #36383b;
+  color: white;
+  padding: 4px;
+  width: calc(100% - 12px);
+  border-left: 4px solid green;
+  overflow: hidden;
+  height: 25px;
+  transition: height 0.2s;
+}
+
+.box:hover {
+  height: 50px;
+}
+
+.box .platform {
+  font-size: 20px;
+  line-height: 27px;
 }
 
 .stream {
