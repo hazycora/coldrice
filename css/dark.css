@@ -24,6 +24,20 @@ body[class="dark-theme"] {
   text-decoration: none;
 }
 
+#header a {
+  color: black;
+  text-decoration: none;
+  transition: padding 0.1s;
+}
+
+#header a:hover {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 2px;
+  text-decoration: none;
+}
+
 .dark-theme .alert {
   background-color: #737c87;
   margin: -4px;
