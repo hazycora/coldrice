@@ -2,6 +2,9 @@
   #content {
     width: 100% !important;
   }
+  #footerContent {
+    width: 100% !important;
+  }
 }
 
 body {
@@ -10,6 +13,7 @@ body {
   /*pointer-events: none;*/
   margin: 0px;
   margin-top: 50px;
+  margin-bottom: 60px;
   padding: 4px;
   transition: margin-top 0.4s;
 }
@@ -96,12 +100,13 @@ a:visited {
   display: block;
 }
 
-.alert {
+.bar {
   background-color: #b0bed0;
   margin: -4px;
   padding: 3px;
   text-align: center;
   margin-bottom: 4px;
+  min-height: 25px;
 }
 
 #content {
@@ -132,6 +137,7 @@ a:visited {
 #boxContainer #bottom {
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
+  border-bottom: 0px solid black;
 }
 
 .box {
@@ -140,19 +146,21 @@ a:visited {
   color: white;
   padding: 4px;
   width: calc(100% - 12px);
-  border-left: 4px solid green;
+  border-left: 4px solid black;
+  border-bottom: 1px solid black;
   overflow: hidden;
-  height: 25px;
+  height: 26px;
   transition: height 0.2s;
 }
 
 .box:hover {
-  height: 50px;
+  height: 57px;
 }
 
-.box .platform {
+.box .title {
   font-size: 20px;
   line-height: 27px;
+  margin-bottom: 3px;
 }
 
 .stream {
@@ -178,6 +186,20 @@ a:visited {
   border-radius: 4px;
 }
 
+.avatar {
+  display: block;
+  float: left;
+  border-radius: 4px;
+  width: 60px;
+  height: 60px;
+  margin-right: 12px;
+  transition: transform 0.4s;
+}
+
+.avatar:hover {
+  transform: scale(1.1);
+}
+
 .stream .cover {
   display: block;
   float: left;
@@ -189,7 +211,7 @@ a:visited {
 }
 
 .stream:hover .cover {
-  transform: scale(1.1)
+  transform: scale(1.1);
 }
 
 .stream .episode {
@@ -204,4 +226,21 @@ a:visited {
   width: calc(100% - 112px);
   height: 30px;
   border-radius: 16px;
+}
+
+#footer {
+  position: fixed;
+  background-color: white;
+  bottom: 0px;
+  width: calc(100% - 8px);
+}
+
+#footerContent {
+  font-size: 12px;
+  text-align: center;
+  border-top: 1px solid black;
+  display: block;
+  margin: 0 auto;
+  transition: width 0.4s;
+  width: 65%;
 }

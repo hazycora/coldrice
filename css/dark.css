@@ -38,7 +38,7 @@ body[class="dark-theme"] {
   text-decoration: none;
 }
 
-.dark-theme .alert {
+.dark-theme .bar {
   background-color: #737c87;
   margin: -4px;
   padding: 3px;
