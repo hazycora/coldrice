@@ -61,6 +61,12 @@
     font-display: swap;
 }
 
+@media (max-width: 800px) {
+  #content {
+    width: 100% !important;
+  }
+}
+
 body {
   font-family: 'CG Times';
   text-transform: lowercase;
@@ -148,8 +154,8 @@ a:visited {
 #content {
   display: block;
   margin: 0 auto;
-  width: 700px;
-  max-width: 100%;
+  transition: width 0.4s;
+  width: 65%;
 }
 
 .heading {
