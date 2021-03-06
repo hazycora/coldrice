@@ -1,0 +1,68 @@
+@keyframes anim1 {
+  0% {
+    transform: translateY(-4px);
+  }
+
+  50% {
+    transform: translateY(4px);
+  }
+
+  100% {
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes anim2 {
+  0% {
+    transform: translateY(-4px);
+  }
+
+  50% {
+    transform: translateY(4px);
+  }
+
+  100% {
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes anim3 {
+  0% {
+    transform: translateY(-4px);
+  }
+
+  50% {
+    transform: translateY(4px);
+  }
+
+  100% {
+    transform: translateY(-4px);
+  }
+}
+
+.letter1 {
+  transform: translateY(-4px);
+  display: inline-block;
+  animation-name: anim1;
+  animation-duration: 6s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+
+.letter2 {
+  transform: translateY(-4px);
+  display: inline-block;
+  animation-name: anim2;
+  animation-duration: 6s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+.letter3 {
+  transform: translateY(-4px);
+  display: inline-block;
+  animation-name: anim3;
+  animation-duration: 6s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}

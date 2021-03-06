@@ -18,6 +18,13 @@ body {
   transition: margin-top 0.4s;
 }
 
+#logo {
+  display: block;
+  margin: 0 auto;
+  width: 210px;
+  margin-bottom: 15px;
+}
+
 /* body:hover {
   margin-top: 70px;
 } */
