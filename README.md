@@ -1,1 +1,3 @@
 # coldrice
+
+site for friends
