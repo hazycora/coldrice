@@ -10,6 +10,20 @@ body[class="dark-theme"] {
   transition: margin-top 0.4s;
 }
 
+.dark-theme a {
+  color: white;
+  text-decoration: none;
+  transition: padding 0.1s;
+}
+
+.dark-theme a:hover {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 2px;
+  text-decoration: none;
+}
+
 .dark-theme .alert {
   background-color: #737c87;
   margin: -4px;
@@ -35,6 +49,10 @@ body[class="dark-theme"] {
   overflow: hidden;
   height: 25px;
   transition: height 0.2s;
+}
+
+.dark-theme .box:hover {
+  height: 50px;
 }
 
 .dark-theme .stream {

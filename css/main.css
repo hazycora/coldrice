@@ -44,6 +44,20 @@ a:visited {
   text-decoration: none;
 }
 
+.box a {
+  color: white;
+  text-decoration: none;
+  transition: padding 0.1s;
+}
+
+.box a:hover {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 2px;
+  text-decoration: none;
+}
+
 #header {
   color: #212121;
   background-image: url('../assets/images/header.png');
