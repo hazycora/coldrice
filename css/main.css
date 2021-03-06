@@ -201,4 +201,5 @@ a:visited {
 .player {
   width: calc(100% - 112px);
   height: 30px;
+  border-radius: 16px;
 }
