@@ -159,7 +159,7 @@ a:visited {
   padding: 5px;
   background-color: #3b3b3b;
   color: black;
-  height: 70px;
+  min-height: 70px;
   border-radius: 6px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
   margin-bottom: 30px;
@@ -192,4 +192,13 @@ a:visited {
 
 .stream .episode {
   font-size: 20px;
+}
+
+.episodeTitle {
+  margin-bottom: 7px;
+}
+
+.player {
+  width: calc(100% - 112px);
+  height: 30px;
 }
