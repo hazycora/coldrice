@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'CG Times';
+    src: url('CgTimes/CGTimes-Bold.woff2') format('woff2'),
+        url('CgTimes/CGTimes-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CG Times';
+    src: url('CgTimes/CGTimes-Regular.woff2') format('woff2'),
+        url('CgTimes/CGTimes-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CG Times';
+    src: url('CgTimes/CGTimes-Italic.woff2') format('woff2'),
+        url('CgTimes/CGTimes-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CG Times';
+    src: url('CgTimes/CgTimes.woff2') format('woff2'),
+        url('CgTimes/CgTimes.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CG Times';
+    src: url('CgTimes/CgTimes-Italic.woff2') format('woff2'),
+        url('CgTimes/CgTimes-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CG Times';
+    src: url('CgTimes/CgTimes-Bold.woff2') format('woff2'),
+        url('CgTimes/CgTimes-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CG Times';
+    src: url('CgTimes/CgTimes-BoldItalic.woff2') format('woff2'),
+        url('CgTimes/CgTimes-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
